@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <form name="forms">
+            <input type="text" name="output">
+            <input type="button" class="clear" value="C" onClick="reset()">
+            <input type="button" class="operator"value="/" onClick="opr_div()">
+            <input type="button" value="1" onClick="btn_1()">
+            <input type="button" value="2" onClick="btn_2()">
+            <input type="button" value="3" onClick="btn_3()">
+            <input type="button" class="operator" value="*" onClick="opr_mul()">
+            <input type="button" value="4" onClick="btn_4()">
+            <input type="button" value="5" onClick="btn_5()">
+            <input type="button" value="6" onClick="btn_6()">
+            <input type="button" class="operator" value="+" onClick="opr_pl()">
+            <input type="button" value="7" onClick="btn_7()">
+            <input type="button" value="8" onClick="btn_8()">
+            <input type="button" value="9" onClick="btn_9()">
+            <input type="button" class="operator" value="-" onClick="opr_mi()">
+            <input type="button" class="dot" value="." onClick="opr_dot()">
+            <input type="button" value="0"onClick="btn_0()" >
+            <input type="button" class="operator result" value="=" onClick="result()">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
